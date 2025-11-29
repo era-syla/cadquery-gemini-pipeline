@@ -1,0 +1,6 @@
+google-generativeai
+pillow
+cadquery
+tqdm
+pythonocc-core
+trimesh

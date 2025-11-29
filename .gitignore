@@ -1,0 +1,22 @@
+# Ignore data and outputs
+data/
+*.tar.gz
+*.png
+*.step
+*.pyc
+__pycache__/
+.DS_Store
+
+# Keep the structure
+!data/.gitkeep
+
+# Ignore test outputs
+pipeline_test_*
+test_output*
+simple_cube*
+valid_test_*
+*.json
+temp_test.step
+
+# Ignore conda env files
+*.sh
