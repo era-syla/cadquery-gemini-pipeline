@@ -11,7 +11,7 @@ from datetime import datetime
 from dataclasses import dataclass, asdict
 
 # Configuration
-GEMINI_API_KEY = "AIzaSyARN5s0vpG84QksnXykOul5r642h9LuWZI"  # Your API key
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')  # Your API key
 IMAGE_DIR = "data/sdg_abc_1k_images"
 OUTPUT_DIR = "data/cadquery_outputs"
 CODE_OUTPUT_DIR = "data/generated_code"  # Directory for Python files
